@@ -30,7 +30,7 @@
     "winston": "^3.3.3"
   },
   "scripts": {
-    "start": "yarn dev",
+    "start": "yarn nodemon",
     "dev": "export NODE_ENV='dev' && yarn nodemon",
     "staging": "export NODE_ENV='staging' && yarn nodemon",
     "prod": "export NODE_ENV='production' && yarn nodemon",
